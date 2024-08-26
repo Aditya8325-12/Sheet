@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import React from "react";
-const initialState = Array.from({ length: 50 }, () =>
+const initialState = Array.from({ length: 1000 }, () =>
   Array.from({ length: 26 }, () => ({
     value: "",
     align: "end",
