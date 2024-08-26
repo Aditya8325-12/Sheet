@@ -1,40 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Table Data Management Application
+
+This project is a Table Data Management Application built using Next.js, React, Redux, and Redux Toolkit. It allows users to manage and modify a table with dynamic data, including updating values, changing text alignment, and adjusting font size.
+
+## Features
+
+- **Update Cell Values**: Modify the value of individual cells in the table.
+- **Change Alignment**: Change the text alignment of table cells to start, center, or end.
+- **Adjust Font Size**: Increase or decrease the font size of the text in table cells.
+- **Dynamic State Management**: Uses Redux for managing the state of the table data.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (v12.x or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (preferred)
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
+
+Clone the repository to your local machine using the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/yourusername/table-data-management.git
+cd table-data-management
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Install Dependencies
+Install the project dependencies using Yarn:
+```yarn install
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Or if you prefer using npm:
+```npm install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Run the Development Server
+To start the development server, run:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+``yarn dev
 
-## Learn More
+or with npm
 
-To learn more about Next.js, take a look at the following resources:
+``npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Notes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- The "Table Data Management Application" section now includes a reference to the Netlify deployment URL `https://sheetfile.netlify.app/`, providing a link where users can see the live version of the project.
+- You can adjust the wording or add more details as needed to fit your specific project requirements.
